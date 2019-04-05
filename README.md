@@ -29,15 +29,15 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
-
+Map creates a new array.
 2. What is the difference between a function and a method?
-
+a method is a function inside of a function.
 3. What is closure?
-
+closure is the thing that an object needs to create a local scope.
 4. Describe the four rules of the 'this' keyword.
-
+Window binding is when this binds to something in the global scope. Implicit binding is when this is binding to something in the local scope. New binding is when this is binding to the object it has been passed to. Explicit binding is when methods are used to overwrite the implicit binding properties of this.
 5. Why do we need super() in an extended class?
-
+Super is used to inherit attributes from the class a class is extending from. 
 ## Project Set up
 
 Follow these steps to set up and work on your project:
@@ -65,11 +65,11 @@ Your finished project must include all of the following requirements:
 **Pro tip for this challenge: If something seems like it isn't working locally, copy and paste your code up to codepen and take another look at the console.**
 
 ## Task 1: Objects and Arrays
-Test your knowledge of objects and arrays. 
+Test your knowledge of objects and arrays.
 * [ ] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
 
 ## Task 2: Functions
-This challenge takes a look at callbacks and closures as well as scope. 
+This challenge takes a look at callbacks and closures as well as scope.
 * [ ] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
 
 ## Task 3: Prototypes
